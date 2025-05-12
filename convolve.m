@@ -14,5 +14,5 @@ k = -1;
 end 
 n = n + 1; 
 end 
-ny =  min(nh) + min(nx): max(nh) + max(nx); 
+ny = min(nh)-length(x)+1:max(nh); 
 end
